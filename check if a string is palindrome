@@ -1,0 +1,28 @@
+public class musk {
+	
+
+	public static void main(String[] args) {
+	
+		String str="ABCBA";
+		String space="";
+		
+		for(int i=str.length()-1;i>=0;i--) {
+			space=space+str.charAt(i);
+		}
+		if(space.equals(str)) {
+			System.out.println("The given string is palindrome");
+		}
+		else {
+			System.out.println("Not palindrome");
+		}
+		
+		
+		
+}
+		
+		
+	}
+		
+    output:
+    The given string is palindrome
+    
