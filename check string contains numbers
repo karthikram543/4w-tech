@@ -1,0 +1,23 @@
+public class musk {
+	
+		 public static void main (String[]args) {
+	   
+	String str = "kartik";
+	boolean containsNumbers = false;
+	for (int i = 0; i < str.length(); i++) {
+	    if (Character.isDigit(str.charAt(i))) {
+	        containsNumbers = true;
+	        break;
+	    }
+	}
+	if (containsNumbers) {
+	    System.out.println(str + " contains numbers.");
+	} else {
+	    System.out.println(str + " does not contain numbers.");
+	}
+}}
+
+
+output:
+
+kartik does not contain numbers.
